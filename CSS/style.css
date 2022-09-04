@@ -1,0 +1,144 @@
+/* smartphone */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/hd-avatar-wallpaper-whatspaper-17.jpg');
+  height: 100vh;
+  max-width: 100vw;
+}
+
+nav {
+  background-color: rgb(27, 25, 25);
+  display: flex;
+  height: 7%;
+  color: white;
+}
+
+.logo {
+  padding: 4%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.location {
+  padding-top: 5%;
+  padding-left: 25%;
+}
+
+.bar {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.blur {
+  border: 2px dashed white;
+  margin: 20px;
+  width: 85%;
+  border-radius: 10px;
+  margin: 10% 5%;
+}
+
+.inner {
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  margin-top: 10px;
+}
+
+.reg {
+  display: flex;
+  margin-top: 15px;
+}
+
+.rating,
+.pg {
+  padding: 5px 12px;
+  border-radius: 7.5px;
+  background-color: rgb(214, 211, 198);
+  font-size: 20px;
+}
+
+.pg {
+  margin-left: 20px;
+}
+
+.time {
+  padding: 5px 5px;
+  border-radius: 7.5px;
+  background-color: rgb(139, 138, 138);
+  font-size: 18px;
+  width: 80px;
+  color: rgb(214, 211, 198);
+  margin-top: 85px;
+  height: 35px
+}
+
+ul {
+  list-style: none;
+}
+
+.tg {
+  display: flex;
+}
+
+.genre {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.gen {
+  padding: 3px 7.5px;
+  border-radius: 7.5px;
+  background-color: rgb(139, 138, 138);
+  width: 175px;
+  color: rgb(214, 211, 198);
+  font-size: 25px;
+  height: 35px;
+  margin-bottom: 5px;
+}
+
+.production,
+.rel,
+.sr,
+.nations {
+  display: flex;
+  color: white;
+}
+
+.prod,
+.rd,
+.status,
+.country {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.prod-comp,
+.date,
+.released,
+.place {
+  margin-top: 17.5px;
+  margin-left: 5px;
+  font-size: 23px;
+}
+
+.last {
+  color: white;
+  font-size: 25px;
+  margin-top: -35px;
+  margin-left: 55px;
+  margin-bottom: 25px;
+}
+
+footer {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
